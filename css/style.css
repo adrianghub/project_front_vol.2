@@ -61,6 +61,20 @@ header > * {
   border: 2px solid white;
 }
 
+@media (orientation: portrait) and (min-width: 360px) {
+  .header__h1 {
+    font-size: 24px;
+  }
+  .header__h2 {
+    font-size: 20px;
+  }
+  .header__button {
+    margin-top: 24px;
+    line-height: 40px;
+    font-size: 16px;
+  }
+}
+
 @media (orientation: landscape) {
   .header__img {
     height: 80%;

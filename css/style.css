@@ -75,6 +75,23 @@ header > * {
   }
 }
 
+@media (orientation: portrait) and (min-width: 410px) {
+  .header__h1 {
+    font-size: 26px;
+  }
+  .header__h2 {
+    font-size: 22px;
+  }
+  .header__button {
+    margin-top: 40px;
+    line-height: 50px;
+    font-size: 20px;
+  }
+  .header__img {
+    right: -20%;
+  }
+}
+
 @media (orientation: landscape) {
   .header__img {
     height: 80%;
@@ -88,6 +105,44 @@ header > * {
   }
   .header__button {
     margin-top: 40px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 640px) {
+  .header__h1 {
+  font-size: 24px;
+  } 
+  .header__h2 {
+  font-size: 20px;
+  }
+  .header__button {
+    font-size: 16px;
+    line-height: 40px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+  .header__div {
+    left: 3%;
+  }
+  .header__paragraph {
+    font-size: 56px;
+  }
+  .header__h1 {
+  margin-top: 40px;
+  font-size: 34px;
+  } 
+  .header__h2 {
+  font-size: 30px;
+  }
+  .header__button {
+    margin-top: 80px;
+    font-size: 24px;
+    line-height: 50px;
+  }
+  .header__img {
+    right: -24%;
+    height: 95%;
   }
 }
 

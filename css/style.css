@@ -60,6 +60,22 @@ header > * {
   border: 2px solid white;
 }
 
+@media (orientation: landscape) {
+  .header__img {
+    height: 80%;
+    bottom: 0;
+    right: -5%;
+  } 
+  .header__div {
+    top: 15%;
+    left: 3%;
+    right: 42%;
+  }
+  .header__button {
+    margin-top: 40px;
+  }
+}
+
 section {
   min-height: 100vh;
 }

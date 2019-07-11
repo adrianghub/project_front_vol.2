@@ -7,10 +7,8 @@ font-family: 'Saira Semi Condensed', sans-serif; */
   box-sizing: border-box;
 }
 
-.div__welcome {
-  top: 10%;
-  left: 5%;
-  right: 5%;
+.header__div {
+  top: 1%;
 }
 
 

@@ -28,6 +28,7 @@ header > * {
   font-size: 40px;
   color: #fff;
   text-transform: uppercase;
+  overflow: hidden;
 }
 
 .header__img {

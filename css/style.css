@@ -7,6 +7,10 @@ font-family: 'Saira Semi Condensed', sans-serif; */
   box-sizing: border-box;
 }
 
+.div__welcome {
+  top: 10%;
+}
+
 
 header > * {
   position: absolute;

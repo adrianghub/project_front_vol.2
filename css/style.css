@@ -7,8 +7,23 @@ font-family: 'Saira Semi Condensed', sans-serif; */
   box-sizing: border-box;
 }
 
+
+header > * {
+  position: absolute;
+}
+
 .header__welcome {
   position: relative;
   background-color: #29a6dc;
-  height: 90vh;
+  height: 100vh;
+}
+
+.header__img {
+  height: 50%;
+  bottom: 0;
+  right: 0;
+}
+
+section {
+  min-height: 100vh;
 }

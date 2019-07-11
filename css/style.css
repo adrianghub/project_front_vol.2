@@ -28,6 +28,10 @@ header > * {
   right: 0;
 }
 
+.header__paragraph {
+  text-align: center;
+}
+
 section {
   min-height: 100vh;
 }

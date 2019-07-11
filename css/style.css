@@ -37,10 +37,12 @@ header > * {
 }
 
 .header__h1 {
+  margin-top: 10px;
   font-size: 20px;
 }
 
 .header__h2 {
+  margin-top: 5px;
   font-size: 18px;
   font-weight: normal;
 }

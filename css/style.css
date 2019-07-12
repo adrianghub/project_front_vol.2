@@ -270,6 +270,10 @@ header > * {
   margin-top: 50px;
 }
 
+.features__h1 {
+  font-family: 'Saira Condensed', sans-serif;
+}
+
 
 section {
   min-height: 100vh;

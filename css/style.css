@@ -225,6 +225,19 @@ header > * {
   }
 }
 
+/* MEDIA QUERY FOR BUTTON */
+
+@media (min-width: 1024px) {
+  .header__button {
+  cursor: pointer;
+  transition: .3s;
+  }
+  .header__button:hover {
+    background-color: #fff;
+    color: #111;
+  }
+}
+
 
 section {
   min-height: 100vh;

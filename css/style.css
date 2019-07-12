@@ -174,7 +174,7 @@ header > * {
     line-height: 50px;
   }
   .header__img {
-    right: -24%;
+    right: -16%;
     height: 95%;
   }
 }
@@ -211,6 +211,9 @@ header > * {
 }
 
 @media (orientation: landscape) and (min-width: 1600px) {
+  .header__div {
+    left: 10%;
+  }
 
   .header__paragraph {
     font-size: 120px;

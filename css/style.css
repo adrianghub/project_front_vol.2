@@ -283,6 +283,12 @@ header > * {
   font-size: 20px;
   text-transform: uppercase;
 }
+
+.features__paragraph {
+  font-family: 'Saira', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 20px 0;
 }
 
 .features__img {

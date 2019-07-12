@@ -264,10 +264,13 @@ header > * {
   }
 }
 
+
+
 /* FEATURES SECTION */
 
 .features {
-  margin-top: 50px;
+  max-width: 1600px;
+  margin: 50px 0 auto;
   padding: 5%;
   text-align: center;
 }
@@ -357,6 +360,27 @@ header > * {
     font-size: 16px;
     line-height: 120%;
     padding: 0 10px;
+  } 
+}
+
+@media (min-width: 1600px) {
+
+
+  .features__div {
+    padding: 60px;
+  }
+
+  .features__h1 {
+    font-size: 60px;
+  }
+
+    .features__h2 {
+    font-size: 32px;
+  }
+
+  .features__paragraph {
+    font-size: 21px;
+    line-height: 140%;
   } 
 }
 

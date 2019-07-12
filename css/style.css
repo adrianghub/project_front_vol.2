@@ -196,10 +196,9 @@ header > * {
   }
   .header__button {
     margin-top: 100px;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 80px;
     padding: 0 50px;
-    border-width: 4px;
   }
   .header__img {
     right: -16%;
@@ -211,6 +210,20 @@ header > * {
   }
 }
 
+@media (orientation: landscape) and (min-width: 1600px) {
+
+  .header__paragraph {
+    font-size: 120px;
+  }
+
+  .header__button {
+    font-size: 36px;
+    line-height: 90px;
+  }
+  .header__paragraph--emoji {
+    font-size: 100px;
+  }
+}
 
 
 section {

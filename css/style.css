@@ -65,6 +65,11 @@ header > * {
   background-color: transparent;
   font-size: 12px;
   border: 2px solid white;
+  opacity: 0.8;
+}
+
+.header__paragraph--emoji {
+  opacity: 0.8;
 }
 
 /* MEDIA QUERY SECTION - PORTRAIT */

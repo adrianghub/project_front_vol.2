@@ -117,6 +117,10 @@ header > * {
   .header__paragraph {
     font-size: 60px;
   }
+
+  .header__paragraph--emoji {
+    font-size: 60px;
+  }
 }
 
 /* MEDIA QUERY SECTION - LANDSCAPE */

@@ -32,6 +32,7 @@ header > * {
   color: #fff;
   text-transform: uppercase;
   overflow: hidden;
+  max-width: 1920px;
 }
 
 .header__img {

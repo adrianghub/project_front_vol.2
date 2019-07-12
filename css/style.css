@@ -1,6 +1,8 @@
 /* font-family: 'Saira', sans-serif;
 font-family: 'Saira Semi Condensed', sans-serif; */
 
+/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +15,7 @@ font-family: 'Saira Semi Condensed', sans-serif; */
   left: 3%;
 }
 
+/* HEADER SECTION */
 
 header > * {
   position: absolute;
@@ -61,6 +64,8 @@ header > * {
   border: 2px solid white;
 }
 
+/* MEDIA QUERY SECTION - PORTRAIT */
+
 @media (orientation: portrait) and (min-width: 360px) {
   .header__h1 {
     font-size: 24px;
@@ -91,6 +96,30 @@ header > * {
     right: -20%;
   }
 }
+
+@media (orientation: portrait) and (min-width: 768px) {
+  .header__h1 {
+    font-size: 32px;
+  }
+  .header__h2 {
+    font-size: 32px;
+  }
+  .header__button {
+    margin-top: 60px;
+    line-height: 60px;
+    font-size: 24px;
+  }
+  .header__img {
+    height: 55vh;
+    right: -20%;
+  }
+
+  .header__paragraph {
+    font-size: 60px;
+  }
+}
+
+/* MEDIA QUERY SECTION - LANDSCAPE */
 
 @media (orientation: landscape) {
   .header__img {

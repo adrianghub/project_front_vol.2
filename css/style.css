@@ -268,11 +268,16 @@ header > * {
 
 .features {
   margin-top: 50px;
+  padding: 5%;
 }
 
 .features__h1 {
   font-family: 'Saira Condensed', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
 }
+
+.features
 
 
 section {

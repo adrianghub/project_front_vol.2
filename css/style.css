@@ -149,6 +149,14 @@ header > * {
   }
 }
 
+@media (orientation: landscape) and (min-width: 410px) {
+
+  .header__img {
+    bottom: -25%;
+    height: 90vh;
+  }
+}
+
 @media (orientation: landscape) and (min-width: 640px) {
   .header__h1 {
   font-size: 24px;
@@ -159,6 +167,11 @@ header > * {
   .header__button {
     font-size: 16px;
     line-height: 40px;
+  }
+  .header__img {
+    right: -5%;
+    bottom: -35%;
+    height: 110vh;
   }
 }
 

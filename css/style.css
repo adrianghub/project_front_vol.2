@@ -264,6 +264,12 @@ header > * {
   }
 }
 
+/* FEATURES SECTION */
+
+.features {
+  margin-top: 50px;
+}
+
 
 section {
   min-height: 100vh;

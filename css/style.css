@@ -298,6 +298,8 @@ header > * {
   max-width: 375px;
 }
 
+/* MEDIA QUERIES FOR FEATURES SECTION */
+
 @media (min-width: 360px) {
   .features__h1 {
     font-size: 26px;
@@ -308,6 +310,37 @@ header > * {
   .features__paragraph {
     font-size: 14px;
   } 
+}
+
+@media (min-width: 768px) {
+  .features__h1 {
+    font-size: 32px;
+  } 
+  .features__h2 {
+    font-size: 28px;
+  }
+  .features__paragraph {
+    font-size: 18px;
+  } 
+}
+
+@media (min-width: 1024px) {
+  .features__h1 {
+    margin-bottom: 50px;
+  }
+
+  .features__box {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .features__div {
+    flex-basis: 30%;
+  }
+
+
 }
 
 section {

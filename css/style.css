@@ -276,6 +276,7 @@ header > * {
   font-family: 'Saira Condensed', sans-serif;
   font-size: 24px;
   text-transform: uppercase;
+  line-height: 32px;
 }
 
 .features__h2 {
@@ -297,6 +298,17 @@ header > * {
   max-width: 375px;
 }
 
+@media (min-width: 360px) {
+  .features__h1 {
+    font-size: 26px;
+  } 
+  .features__h2 {
+    font-size: 24px;
+  }
+  .features__paragraph {
+    font-size: 14px;
+  } 
+}
 
 section {
   min-height: 100vh;

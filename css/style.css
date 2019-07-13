@@ -390,11 +390,11 @@ header > * {
 
 .portfolio__h1 {
   color: #fff;
-  font-size: 28px;
+  font-size: 24px;
   font-family: 'Saira Condensed', sans-serif;
   text-transform: uppercase;
   text-align: center;
-  padding: 0 20px;
+  padding: 20px 10px;
 }
 
 .portfolio__img {
@@ -411,6 +411,7 @@ header > * {
 
 .about__h2 {
   font-size: 18px;
+  text-transform: uppercase;
 }
 
 .about__paragraph {

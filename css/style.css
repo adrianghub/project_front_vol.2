@@ -400,7 +400,7 @@ header > * {
   padding: 20px 10px;
 }
 
-.portfolio__img {
+.box__img {
   width: 100%;
 }
 
@@ -438,6 +438,26 @@ header > * {
 .about__paragraph {
   font-size: 12px;
   padding-left: 20px;
+}
+
+/* MEDIA QUERY FOR PORTFOLIO SECTION */
+
+@media (orientation:landscape) {
+  .portfolio__div {
+    display: flex;
+  }
+
+  .box, .about {
+    flex-basis: 50%;
+  }
+
+  .box__img {
+    display: block;
+  }
+  
+  .portfolio__div:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
 }
 
 

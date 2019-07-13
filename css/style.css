@@ -401,6 +401,16 @@ header > * {
   width: 100%;
 }
 
+.portfolio__div:nth-of-type(odd) {
+  background-color: orange;
+}
+
+.portfolio__div:nth-of-type(even) {
+  background-color: royalblue;
+}
+
+/* ABOUT */
+
 .about {
   color: white;
   font-family: 'Saira', sans-serif;

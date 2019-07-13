@@ -442,7 +442,7 @@ header > * {
 
 /* MEDIA QUERY FOR PORTFOLIO SECTION */
 
-@media (min-width: 768px) and (orientation:portrait) {
+@media (min-width: 768px) {
 
   .portfolio__h1 {
     font-size: 32px;
@@ -480,10 +480,6 @@ header > * {
   .portfolio__div:nth-of-type(even) {
     flex-direction: row-reverse;
   }
-}
-
-@media (orientation: landscape) and (min-width: 1024px) {
-  
 }
 
 

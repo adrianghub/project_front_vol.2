@@ -397,7 +397,9 @@ header > * {
   padding: 0 20px;
 }
 
-.portfolio__img
+.portfolio__img {
+  width: 100%;
+}
 
 
 section {

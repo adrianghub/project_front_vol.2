@@ -405,8 +405,16 @@ header > * {
   color: white;
   font-family: 'Saira', sans-serif;
   font-weight: normal;
-  padding: 10px 20px;
+  padding: 10px 20px 20px 20px;
   text-align: left;
+}
+
+.about__h2 {
+  font-size: 18px;
+}
+
+.about__paragraph {
+  font-size: 12px;
 }
 
 

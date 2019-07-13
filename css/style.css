@@ -384,6 +384,8 @@ header > * {
   } 
 }
 
+/* PORTFOLIO SECTION */
+
 .portfolio {
   background-color: #000;
 }
@@ -399,6 +401,10 @@ header > * {
 
 .portfolio__img {
   width: 100%;
+}
+
+.portfolio__div {
+  margin-bottom: 20px;
 }
 
 .portfolio__div:nth-of-type(odd) {

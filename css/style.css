@@ -421,17 +421,22 @@ header > * {
   color: white;
   font-family: 'Saira', sans-serif;
   font-weight: normal;
-  padding: 10px 20px 20px 20px;
+  padding: 10px 20px 20px 0;
   text-align: left;
 }
 
 .about__h2 {
   font-size: 18px;
   text-transform: uppercase;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  text-indent: 20px;
 }
 
 .about__paragraph {
   font-size: 12px;
+  padding-left: 20px;
 }
 
 

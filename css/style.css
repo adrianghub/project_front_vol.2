@@ -442,6 +442,28 @@ header > * {
 
 /* MEDIA QUERY FOR PORTFOLIO SECTION */
 
+@media (min-width: 768px) and (orientation:portrait) {
+
+  .portfolio__h1 {
+    font-size: 32px;
+  }
+
+  .about__h2 {
+    font-size: 24px;
+    text-indent: 40px;
+  }
+  
+  .about__paragraph {
+    font-size: 18px;
+    padding-left: 40px;
+  }
+
+  .portfolio__div {
+    margin-bottom: 40px;
+  }
+
+}
+
 @media (orientation:landscape) {
   .portfolio__div {
     display: flex;
@@ -458,6 +480,10 @@ header > * {
   .portfolio__div:nth-of-type(even) {
     flex-direction: row-reverse;
   }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+  
 }
 
 

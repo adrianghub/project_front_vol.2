@@ -1,5 +1,5 @@
 /* font-family: 'Saira', sans-serif;
-font-family: 'Saira Semi Condensed', sans-serif; */
+font-family: 'Saira Condensed', sans-serif; */
 
 /* RESET */
 
@@ -383,6 +383,19 @@ header > * {
     line-height: 140%;
   } 
 }
+
+.portfolio {
+  background-color: #000;
+}
+
+.portfolio__h1 {
+  color: #fff;
+  font-size: 28px;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 
 section {
   min-height: 100vh;

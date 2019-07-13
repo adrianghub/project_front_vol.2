@@ -406,6 +406,7 @@ header > * {
 
 .portfolio__div {
   margin-bottom: 20px;
+  max-width: 1620px;
 }
 
 .portfolio__div:nth-of-type(odd) {

@@ -481,6 +481,19 @@ header > * {
   .portfolio__div:nth-of-type(even) {
     flex-direction: row-reverse;
   }
+
+  .portfolio__div:nth-of-type(even) .about {
+    padding-right: 0;
+  }
+
+  .portfolio__div:nth-of-type(even) .about__h2 {
+    text-indent: 0;
+    margin-left: 40px;
+  }
+
+  .portfolio__div:nth-of-type(even) .about__paragraph {
+    padding-right: 20px;
+  }
 }
 
 @media (min-width: 1240px) {

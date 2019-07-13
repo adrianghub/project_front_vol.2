@@ -388,6 +388,7 @@ header > * {
 
 .portfolio {
   background-color: #000;
+  padding: 10px 0 30px;
 }
 
 .portfolio__h1 {

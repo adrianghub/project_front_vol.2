@@ -535,7 +535,14 @@ header > * {
   line-height: 32px;
 }
 
+.motto__paragraph {
+  font-family: 'Saira', sans-serif;
+  font-size: 18px;
+};
 
+.motto__author {
+  font-size: 12px;
+}
 
 section {
   min-height: 100vh;

@@ -523,7 +523,7 @@ header > * {
   text-align: center;
   background-image: url(../images/motto.jpg);
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   padding: 30px 10px;
   color: white;
 }
@@ -537,7 +537,7 @@ header > * {
   font-family: 'Saira Condensed', sans-serif;
   font-size: 26px;
   text-transform: uppercase;
-  margin-bottom: 15px; 
+  margin-bottom: 25px; 
 }
 
 .motto__paragraph {
@@ -546,9 +546,18 @@ header > * {
 };
 
 .motto__author {
+  margin-top: 12px;
   font-size: 12px;
 }
 
+@media (orientation: landscape) {
+  .motto__paragraph {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 section {
-  min-height: 100vh;
+  min-height: 30vh;
 }

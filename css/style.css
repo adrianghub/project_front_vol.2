@@ -528,16 +528,16 @@ header > * {
   color: white;
 }
 
-.motto__background {
-  background-color: rgba(0,0,0,0.5);
+ .motto__background {
   padding: 30px 10px;
+  background-color: rgba(0,63,114,0.5);
 };
 
 .motto__h1 {
   font-family: 'Saira Condensed', sans-serif;
-  font-size: 24px;
+  font-size: 26px;
   text-transform: uppercase;
-  line-height: 32px;
+  margin-bottom: 15px; 
 }
 
 .motto__paragraph {

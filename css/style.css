@@ -528,6 +528,11 @@ header > * {
   color: white;
 }
 
+.motto__background {
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px 10px;
+};
+
 .motto__h1 {
   font-family: 'Saira Condensed', sans-serif;
   font-size: 24px;

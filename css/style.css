@@ -519,13 +519,21 @@ header > * {
 
 /* MOTTO SECTION */
 
+.motto {
+  text-align: center;
+  background-image: url(../images/motto.jpg);
+  background-size: cover;
+  background-position: top center;
+  padding: 30px 10px;
+  color: white;
+}
+
 .motto__h1 {
   font-family: 'Saira Condensed', sans-serif;
   font-size: 24px;
   text-transform: uppercase;
   line-height: 32px;
 }
-
 
 
 

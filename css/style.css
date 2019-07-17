@@ -522,8 +522,9 @@ header > * {
 .motto {
   text-align: center;
   background-image: url(../images/motto.jpg);
-  background-size: cover;
+  background-size: top cover;
   background-position: center;
+  background-attachment: fixed;
   color: white;
 }
 
@@ -562,7 +563,8 @@ header > * {
 
 @media (orientation: landscape) and (min-width: 720px){
   .motto__paragraph, .motto__author {
-    width: 70%;
+    font-family: 'Saira', sans-serif;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -581,7 +583,8 @@ header > * {
 
 @media (orientation: landscape) and (min-width: 1240px){
   .motto__paragraph, .motto__author {
-    width: 80%;
+    font-family: 'Saira', sans-serif;
+    width: 50%;
   }
 
   .motto__h1 {
@@ -600,5 +603,5 @@ header > * {
 
 
 footer {
-  min-height: 10vh;
+  min-height: 80vh;
 }

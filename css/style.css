@@ -527,17 +527,14 @@ header > * {
   color: white;
 }
 
- .motto__background {
-  padding: 30px 10px;
-  background-color: rgba(0,63,114,0.5);
-};
 
 .motto__h1 {
   font-family: 'Saira Condensed', sans-serif;
   font-size: 26px;
   text-transform: uppercase;
   margin-bottom: 25px; 
-}
+};
+
 
 .motto__paragraph {
   font-family: 'Saira', sans-serif;
@@ -548,6 +545,13 @@ header > * {
   margin-top: 12px;
   font-size: 12px;
 }
+
+
+ .motto__background {
+  padding: 30px 10px;
+  background-color: rgba(0,63,114,0.5);
+};
+
 
 @media (orientation: landscape) {
   .motto__paragraph {

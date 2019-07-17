@@ -554,12 +554,19 @@ header > * {
 
 @media (orientation: landscape) {
   .motto__paragraph, .motto__author {
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
 @media (orientation: landscape) and (min-width: 720px){
+  .motto__paragraph, .motto__author {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .motto__h1 {
     font-size: 32px;
   }
@@ -573,6 +580,10 @@ header > * {
 }
 
 @media (orientation: landscape) and (min-width: 1240px){
+  .motto__paragraph, .motto__author {
+    width: 80%;
+  }
+
   .motto__h1 {
     font-size: 40px;
   }
@@ -588,6 +599,6 @@ header > * {
 
 
 
-section {
+footer {
   min-height: 10vh;
 }

@@ -528,29 +528,28 @@ header > * {
   color: white;
 }
 
+.motto__background {
+  padding: 30px 10px;
+  background-color: rgba(0,63,114,0.5);
+}
 
 .motto__h1 {
   font-family: 'Saira Condensed', sans-serif;
   font-size: 26px;
   text-transform: uppercase;
   margin-bottom: 25px; 
-};
+}
 
 
 .motto__paragraph, .motto__author {
   font-family: 'Saira', sans-serif;
   font-size: 18px;
-};
+}
 
 .motto__author {
   font-size: 12px;
 }
 
-
- .motto__background {
-  padding: 30px 10px;
-  background-color: rgba(0,63,114,0.5);
-};
 
 /* MEDIA QUERY FOR PORTFOLIO SECTION */
 
@@ -624,13 +623,20 @@ header > * {
   background-image: url(../images/hobby4.jpg);
 }
 
+.hobby__h1 {
+  padding: 20px;
+  font-family: 'Saira-Condensed', sans-serif;
+  text-align: center
+}
+
 .hobby__paragraph {
   font-family: 'Saira', sans-serif;
   color: white;
   text-align: center;
   text-shadow: 0 0 4px s#000;
-  background-color: rgba(0,0,0,0.5)
+  background-color: rgba(0,0,0,0.5);
 }
+
 
 
 footer {

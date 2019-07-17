@@ -536,7 +536,7 @@ header > * {
 };
 
 
-.motto__paragraph {
+.motto__paragraph, .motto__author {
   font-family: 'Saira', sans-serif;
   font-size: 18px;
 };
@@ -553,12 +553,40 @@ header > * {
 
 
 @media (orientation: landscape) {
-  .motto__paragraph {
+  .motto__paragraph, .motto__author {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
 }
+
+@media (orientation: landscape) and (min-width: 720px){
+  .motto__h1 {
+    font-size: 32px;
+  }
+
+  .motto__paragraph {
+   font-size: 20px;
+  }
+  .motto__author {
+    font-size: 16px;
+   }
+}
+
+@media (orientation: landscape) and (min-width: 1240px){
+  .motto__h1 {
+    font-size: 40px;
+  }
+
+  .motto__paragraph {
+   font-size: 34px;
+  }
+  .motto__author {
+    font-size: 26px;
+   }
+}
+
+
 
 section {
   min-height: 10vh;

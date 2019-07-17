@@ -778,6 +778,7 @@ margin-bottom: 15px;
 }
 
 .social__desc {
+  display: block;
   line-height: 72px;
 }
 

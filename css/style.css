@@ -554,7 +554,6 @@ header > * {
 
 @media (orientation: landscape) {
   .motto__paragraph, .motto__author {
-    width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -580,6 +579,7 @@ header > * {
 
   .motto__paragraph {
    font-size: 34px;
+
   }
   .motto__author {
     font-size: 26px;

@@ -779,7 +779,7 @@ margin-bottom: 15px;
 
 .social__desc {
   display: block;
-  line-height: 72px;
+  line-height: 36px;
 }
 
 @media (orientation:landscape) {

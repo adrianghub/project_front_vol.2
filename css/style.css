@@ -752,6 +752,16 @@ margin-bottom: 15px;
   background-color: black;
   color: white;
   border: 2px solid white;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.contact__button:hover {
+  line-height: 40px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid white;
 }
 
 .contact__socials {
@@ -763,7 +773,7 @@ margin-bottom: 15px;
 }
 
 .social {
-  padding: 10px 0;
+  padding: 10px;
   color: white;
 }
 
@@ -789,6 +799,11 @@ margin-bottom: 15px;
 }
 
 @media (min-width: 1024px) {
+
+.contact__h1 {
+    font-size: 40px;
+  }
+
 .contact__box {
   display: flex;
   justify-content: space-between;
@@ -804,6 +819,10 @@ margin-bottom: 15px;
 
 }
 
-footer {
-  min-height: 80vh;
+.footer {
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  font-family: 'Saira', sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
 }

@@ -542,7 +542,6 @@ header > * {
 };
 
 .motto__author {
-  margin-top: 12px;
   font-size: 12px;
 }
 
@@ -562,5 +561,5 @@ header > * {
 }
 
 section {
-  min-height: 30vh;
+  min-height: 10vh;
 }

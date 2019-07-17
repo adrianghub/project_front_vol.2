@@ -749,6 +749,23 @@ margin-bottom: 15px;
   border: 2px solid white;
 }
 
+.contact__socials {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.social {
+  padding: 10px 0;
+  color: white;
+}
+
+.social__desc {
+  line-height: 72px;
+}
+
 footer {
   min-height: 80vh;
 }

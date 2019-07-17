@@ -624,6 +624,14 @@ header > * {
   background-image: url(../images/hobby4.jpg);
 }
 
+.hobby__paragraph {
+  font-family: 'Saira', sans-serif;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 4px s#000;
+  background-color: rgba(0,0,0,0.5)
+}
+
 
 footer {
   min-height: 80vh;

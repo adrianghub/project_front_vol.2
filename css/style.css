@@ -714,6 +714,11 @@ header > * {
   text-align: center;
 }
 
+.contact__box {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 .contact__h1 {
 font-family: 'Saira Condensed', sans-serif;
 font-size: 26px;
@@ -775,6 +780,22 @@ margin-bottom: 15px;
   .social {
     flex-basis: 50%;
   }
+}
+
+@media (min-width: 1024px) {
+.contact__box {
+  display: flex;
+}
+
+.contact__socials {
+  display: flex;
+flex-direction: column;
+}
+
+.social {
+flex-basis: 20%;
+}
+
 }
 
 footer {

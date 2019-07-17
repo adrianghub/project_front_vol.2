@@ -626,7 +626,9 @@ header > * {
 .hobby__h1 {
   padding: 20px;
   font-family: 'Saira-Condensed', sans-serif;
-  text-align: center
+  text-align: center;
+  font-size: 36px;
+  
 }
 
 .hobby__paragraph {
@@ -635,6 +637,8 @@ header > * {
   text-align: center;
   text-shadow: 0 0 4px s#000;
   background-color: rgba(0,0,0,0.5);
+  font-size: 20px;
+  padding: 5px 0;
 }
 
 

@@ -605,6 +605,7 @@ header > * {
 .hobby__item {
   height: 25vh;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hobby__item:nth-of-type(1) {

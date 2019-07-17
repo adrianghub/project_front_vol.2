@@ -642,7 +642,28 @@ header > * {
   padding: 5px 0;
 }
 
+@media (min-width:533px) {
+  .hobby__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
+  .hobby__item {
+    height: 40vh;
+  }
+}
+
+
+@media (min-width:533px) {
+  .hobby__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hobby__item {
+    height: 40vh;
+  }
+}
 
 footer {
   min-height: 80vh;

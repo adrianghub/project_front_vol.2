@@ -678,6 +678,7 @@ header > * {
     line-height: 40vh;
     opacity: 0;
     transition: 0.5s;
+    cursor: default;
   }
 
   .hobby__paragraph:hover {
@@ -691,6 +692,16 @@ header > * {
 
   .hobby__item:hover {
     background-size: 130%;
+  }
+}
+
+@media (min-width: 1620px) {
+  .hobby__h1 {
+    font-size: 60px;
+  }
+  
+  .hobby__paragraph {
+    font-size: 40px;
   }
 }
 

@@ -552,6 +552,7 @@ header > * {
   background-color: rgba(0,63,114,0.5);
 };
 
+/* MEDIA QUERY FOR PORTFOLIO SECTION */
 
 @media (orientation: landscape) {
   .motto__paragraph, .motto__author {
@@ -599,6 +600,13 @@ header > * {
     font-size: 26px;
    }
 }
+
+/* HOBBY SECTION */
+
+.hobby__item {
+  height: 20vh;
+}
+
 
 
 

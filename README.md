@@ -4,7 +4,7 @@
 
 ## Getting Started :fire:
 
-Take a look at my website: [Adrian Zinko Homepage](https://adrianghub.github.io/gulp-repo) 
+Take a look at my website: [Adrian Zinko Homepage](https://adrianzinkojourney.netlify.com) 
 
 In order to open my homepage **follow the instructions below:**
 
